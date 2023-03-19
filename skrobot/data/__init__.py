@@ -58,3 +58,6 @@ def pr2_urdfpath():
         quiet=True,
     )
     return osp.join(get_cache_dir(), 'pr2_description', 'pr2.urdf')
+
+def kinova_urdfpath():
+    return osp.join(get_cache_dir(), 'kortex_description', 'gen3_robotiq_2f_140.urdf')
